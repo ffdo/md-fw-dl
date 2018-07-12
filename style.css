@@ -1,0 +1,145 @@
+
+/*  Copyright 2015 PetaByteBoy
+
+    This file is part of the Material Design Firmware Downloader.
+
+    The Material Design Firmware Downloader is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    The Material Design Firmware Downloader is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with the Material Design Firmware Downloader.  If not, see <http://www.gnu.org/licenses/>. */
+
+.main {
+  text-align: center;
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #f0f3f5;
+}
+
+.headline {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 15px;
+  
+  width: 100%;
+  margin-left: -115px;
+}
+h1.headline {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+h2.headline {
+  font-size: 1.2em;
+}
+
+.md-card-image {
+  -webkit-filter: drop-shadow(0px 5px 8px #222);
+  filter: drop-shadow(0px 5px 8px #222);
+  margin: 15px 0 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 35px;
+  width: 80px;
+  float: left;
+}
+md-whiteframe {
+  overflow: auto !important;
+  width: 55%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+md-select {
+  width: 90%;
+  margin: 15px;
+}
+
+.md-button {
+  width: 80%;
+  margin: 30px !important; 
+}
+
+.whiteframe-content {
+  height: 100%;
+  width: 100%;
+}
+
+@media (orientation: portrait) {
+  md-whiteframe {
+    width: 90%;
+  }
+
+  .md-card-image {
+    width: 55vw;
+  }
+}
+
+.license {
+  margin-top 60px;
+  -webkit-margin-before: 15px;
+  -webkit-margin-after: 15px;
+  -webkit-margin-start: 60px;
+  -webkit-margin-end: 60px;
+  -moz-margin-before: 15px;
+  -moz-margin-after: 15px;
+  -moz-margin-start: 60px;
+  -moz-margin-end: 60px;
+}
+
+.legend {
+    text-align: left;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255, 0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 6px 8px;
+    width: 170px;
+    line-height: 16px;
+    color: #555;
+}
+.legend i {
+    width: 16px;
+    height: 14px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 80;
+}
+
+@media (max-width: 1024px) {
+  md-whiteframe {
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  md-whiteframe {
+    width: 80%;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+  md-whiteframe {
+    width: 70%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1680px) {
+  md-whiteframe {
+    width: 60%;
+  }
+}
+@media (min-width: 1681px){
+  md-whiteframe {
+    width: 55%;
+  }
+}
