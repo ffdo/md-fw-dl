@@ -1,1 +1,8 @@
 .idea/
+*~
+.directory
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
