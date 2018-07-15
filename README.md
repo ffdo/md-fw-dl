@@ -12,4 +12,4 @@ Can be placed on some random webserver. Just copy config.js.example to config.js
 Bei Fragen, Anregungen oder anderen Mitteilungen, sende uns eine E-Mail an info(aet)freifunk(minus)dortmund(punkt)de oder besuche uns unter https://freifunk-dortmund.de für weitere Kontakmöglichkeiten.
 
 ## Lizenz
-Der Material Design Freifunk Firmware Downloader wurde ursprünglich (2015ff.) von PetaByteBoy (a.k.a. plumpudding) programmiert und ist seitdem unter der GNU General Public License (GPLv3) lizenziert. Den Text dieser Lizenz findest du in diesem Ordner unter [LICENSE](https://github.com/FreiFunkMuenster/md-fw-dl/blob/master/LICENSE) oder unter im Internet unter http://www.gnu.org/licenses/gpl-3.0.html
+Der Material Design Freifunk Firmware Downloader wurde ursprünglich (2015ff.) von PetaByteBoy (a.k.a. plumpudding) programmiert und ist seitdem unter der GNU General Public License (GPLv3) lizenziert. Den Text dieser Lizenz findest du in diesem Ordner unter [LICENSE](https://github.com/ffdo/md-fw-dl/blob/master/LICENSE) oder unter im Internet unter http://www.gnu.org/licenses/gpl-3.0.html
