@@ -49,7 +49,8 @@ manufacturers: {
   "11onion": {id: "onion", name: "Onion"},
   "12wd-ny-net": {id: "wd-ny-net", name: "WD My Net"},
  // "12wd-ny-net": {id: "raspberrypi", name: "Raspberry Pi"},
-  "13x86":{id:"x86",name:"x86"}
+  "13x86":{id:"x86",name:"x86"},
+  "14x86-64":{id:"x86-64",name:"x86-64"}
 },
 
 routers: {
@@ -201,6 +202,11 @@ routers: {
  "x86-kvm":{id:"x86-generic",name:"kvm",manufacturer:"x86", extension :"img.gz" },
  "x86-virtualbox":{id:"x86-generic",name:"virtualbox",manufacturer:"x86", extension :"vdi" }, // only available for factory
  "x86-vmware":{id:"x86-generic",name:"vmware",manufacturer:"x86", extension :"vmdk" }, // only abailable for factory
+ "x86-64-generic":{id:"x86-64",name:"generic",manufacturer:"x86-64", extension :"img.gz" },
+ "x86-64-kvm":{id:"x86-64",name:"kvm",manufacturer:"x86-64", extension :"img.gz" },
+ "x86-64-virtualbox":{id:"x86-64",name:"virtualbox",manufacturer:"x86-64", extension :"vdi" }, // only available for factory
+ "x86-64-vmware":{id:"x86-64",name:"vmware",manufacturer:"x86-64", extension :"vmdk" }, // only abailable for factory
+
 },
 
 name: "Dortmund",
