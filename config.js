@@ -9,8 +9,8 @@ modes: {
 
 sites:{
 
-  // "domaene01" : {id: "domaene00",short:"d00",name:"Testdomäne", version:"2.0.2", version_base:"2017.1.6", on_map: false },
-  // "domaene02" : {id: "domaene02",short:"d02",name:"Aussenbezirk", version:"2.0.2", version_base:"2017.1.6", on_map: false},
+  "domaene01" : {id: "domaene01",short:"d01",name:"Dev und Test Domäne", version:"2.0.2", version_base:"2017.1.6", on_map: false },
+  "domaene02" : {id: "domaene02",short:"d02",name:"Aussenbezirke und Offloader", version:"2.0.2", version_base:"2017.1.6", on_map: false},
   
   "domaene03" : {id: "domaene03",short:"d03",name:"Dortmund Mitte-Nord", version:"2.0.2", version_base:"2017.1.6", on_map: true },
   "domaene04" : {id: "domaene04",short:"d04",name:"Dortmund Mitte-Süd", version:"2.0.2", version_base:"2017.1.6", on_map: true },
