@@ -206,6 +206,6 @@ routers: {
 name: "Dortmund",
 
 
-url: "http://images.ffdo.de/{{parse(downloadableSite).id}}/releases/{{parse(downloadableSite).version}}/images/{{selectedMode}}/gluon-{{parse(downloadableSite).short}}-" +
+url: "http://images.ffdo.de/ffdo_ng/domaenen/{{parse(downloadableSite).id}}/releases/{{parse(downloadableSite).version}}/images/{{selectedMode}}/gluon-ffdo-{{parse(downloadableSite).short}}-" +
 "{{parse(downloadableSite).version}}-{{parse(selectedRouter).id}}{{selectedMode=='sysupgrade'?'-sysupgrade':''}}"
 }
