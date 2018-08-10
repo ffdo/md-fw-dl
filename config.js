@@ -48,7 +48,7 @@ manufacturers: {
   "10openmesh": {id: "openmesh", name: "OpenMesh"},
   "11onion": {id: "onion", name: "Onion"},
   "12wd-ny-net": {id: "wd-ny-net", name: "WD My Net"},
-  "12wd-ny-net": {id: "raspberrypi", name: "Raspberry Pi"},
+ // "12wd-ny-net": {id: "raspberrypi", name: "Raspberry Pi"},
   "13x86":{id:"x86",name:"x86"}
 },
 
@@ -195,8 +195,8 @@ routers: {
  "ubiquiti-airrouter": { id: "ubiquiti-airrouter", name: "airRouter ", manufacturer: "Ubiquiti" },
  "wd-my-net-n600": { id: "wd-my-net-n600", name: "N600", manufacturer: "WD My Net" },
  "wd-my-net-n750": { id: "wd-my-net-n750", name: "N750", manufacturer: "WD My Net" },
- "raspberry-pi": { id: "raspberry-pi", name: "Raspberry Pi", manufacturer: "Raspberry Pi", extension :"img.gz" },
- "raspberry-pi-2": { id: "raspberry-pi-2", name: "Raspberry Pi 2", manufacturer: "Raspberry Pi", extension :"img.gz" },
+// "raspberry-pi": { id: "raspberry-pi", name: "Raspberry Pi", manufacturer: "Raspberry Pi", extension :"img.gz" },
+// "raspberry-pi-2": { id: "raspberry-pi-2", name: "Raspberry Pi 2", manufacturer: "Raspberry Pi", extension :"img.gz" },
  "x86-generic":{id:"x86-generic",name:"generic",manufacturer:"x86", extension :"img.gz" },
  "x86-kvm":{id:"x86-kvm",name:"kvm",manufacturer:"x86", extension :"img.gz" },
  "x86-virtualbox":{id:"x86-virtualbox",name:"virtualbox",manufacturer:"x86", extension :"vdi" }, // only available for factory
