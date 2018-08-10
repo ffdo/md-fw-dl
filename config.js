@@ -198,9 +198,9 @@ routers: {
 // "raspberry-pi": { id: "raspberry-pi", name: "Raspberry Pi", manufacturer: "Raspberry Pi", extension :"img.gz" },
 // "raspberry-pi-2": { id: "raspberry-pi-2", name: "Raspberry Pi 2", manufacturer: "Raspberry Pi", extension :"img.gz" },
  "x86-generic":{id:"x86-generic",name:"generic",manufacturer:"x86", extension :"img.gz" },
- "x86-kvm":{id:"x86-kvm",name:"kvm",manufacturer:"x86", extension :"img.gz" },
- "x86-virtualbox":{id:"x86-virtualbox",name:"virtualbox",manufacturer:"x86", extension :"vdi" }, // only available for factory
- "x86-vmware":{id:"x86-vmware",name:"vmware",manufacturer:"x86", extension :"vmdk" }, // only abailable for factory
+ "x86-kvm":{id:"x86-generic",name:"kvm",manufacturer:"x86", extension :"img.gz" },
+ "x86-virtualbox":{id:"x86-generic",name:"virtualbox",manufacturer:"x86", extension :"vdi" }, // only available for factory
+ "x86-vmware":{id:"x86-generic",name:"vmware",manufacturer:"x86", extension :"vmdk" }, // only abailable for factory
 },
 
 name: "Dortmund",
