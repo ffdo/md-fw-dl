@@ -104,6 +104,7 @@ routers: {
  "openmesh-om5p": { id: "openmesh-om5p", name: "OM5P Ver:1", manufacturer: "OpenMesh" },
  "tp-link-archer-c5-v1": { id: "tp-link-archer-c5-v1", name: "Archer C5 Ver:1", manufacturer: "TP-Link" },
  "tp-link-archer-c7-v2": { id: "tp-link-archer-c7-v2", name: "Archer C7 Ver:2", manufacturer: "TP-Link" },
+ "tp-link-archer-c7-v4": { id: "tp-link-archer-c7-v4", name: "Archer C7 Ver:4", manufacturer: "TP-Link" },
  "tp-link-cpe210-v1.0": { id: "tp-link-cpe210-v1.0", name: "CPE210 Ver:1", manufacturer: "TP-Link" },
  "tp-link-cpe210-v1.1": { id: "tp-link-cpe210-v1.1", name: "CPE210 Ver:1.1", manufacturer: "TP-Link" },
  "tp-link-cpe220-v1.0": { id: "tp-link-cpe220-v1.0", name: "CPE220 Ver:1", manufacturer: "TP-Link" },
