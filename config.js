@@ -167,6 +167,8 @@ routers: {
  "tp-link tl-wr940n-v2": { id: "tp-link-tl-wr940n-v2", name: "TL-WR940N Ver:2", manufacturer: "TP-Link" },
  "tp-link-tl-wr940n-v3": { id: "tp-link-tl-wr940n-v3", name: "TL-WR940N Ver:3", manufacturer: "TP-Link" },
  "tp-link-tl-wr940n-v4": { id: "tp-link-tl-wr940n-v4", name: "TL-WR940N Ver:4", manufacturer: "TP-Link" },
+ "tp-link-tl-wr940n-v5": { id: "tp-link-tl-wr940n-v5", name: "TL-WR940N Ver:5", manufacturer: "TP-Link" },
+ "tp-link-tl-wr940n-v6": { id: "tp-link-tl-wr940n-v6", name: "TL-WR940N Ver:6", manufacturer: "TP-Link" },
  "tp-link-tl-wr941n-nd-v2": { id: "tp-link-tl-wr941n-nd-v2", name: "TL-WR941N/ND Ver:2", manufacturer: "TP-Link" },
  "tp-link-tl-wr941n-nd-v3": { id: "tp-link-tl-wr941n-nd-v3", name: "TL-WR941N/ND Ver:3", manufacturer: "TP-Link" },
  "tp-link-tl-wr941n-nd-v4": { id: "tp-link-tl-wr941n-nd-v4", name: "TL-WR941N/ND Ver:4", manufacturer: "TP-Link" },
