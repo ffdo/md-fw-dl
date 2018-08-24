@@ -204,8 +204,8 @@ routers: {
  "ubiquiti-unifiap-outdoor+": { id: "ubiquiti-unifiap-outdoor+", name: "Outdoor+", manufacturer: "Ubiquiti", modes:["factory","sysupgrade"]},
  "ubiquiti-airgateway": { id: "ubiquiti-airgateway", name: "airGateway ", manufacturer: "Ubiquiti", modes:["factory","sysupgrade"]},
  "ubiquiti-airrouter": { id: "ubiquiti-airrouter", name: "airRouter ", manufacturer: "Ubiquiti", modes:["factory","sysupgrade"]},
- "ubiquiti-ubnt-erx-sfp": { id: "ubiquiti-ubnt-erx-sfp", name: "Ubiquiti Edgerouter-X SFP ", manufacturer: "Ubiquiti", modes:["sysupgrade"]},// only available for sysupgrade
- "ubiquiti-ubnt-erx": { id: "ubiquiti-ubnt-erx", name: "Ubiquiti EdgeRouter-X ", manufacturer: "Ubiquiti", modes:["sysupgrade"]},// only available for sysupgrade
+ "ubnt-erx-sfp": { id: "ubnt-erx-sfp", name: "Ubiquiti Edgerouter-X SFP ", manufacturer: "Ubiquiti", extension :"bin", extensionupgrade :"tar", modes:["sysupgrade"]},// only available for sysupgrade
+ "ubnt-erx": { id: "ubnt-erx", name: "Ubiquiti EdgeRouter-X ", manufacturer: "Ubiquiti", extension :"bin", extensionupgrade :"tar", modes:["sysupgrade"]},// only available for sysupgrade
  "wd-my-net-n600": { id: "wd-my-net-n600", name: "N600", manufacturer: "WD My Net", modes:["factory","sysupgrade"]},
  "wd-my-net-n750": { id: "wd-my-net-n750", name: "N750", manufacturer: "WD My Net", modes:["factory","sysupgrade"]},
 // "raspberry-pi": { id: "raspberry-pi", name: "Raspberry Pi", manufacturer: "Raspberry Pi", extension :"img.gz", modes:["factory","sysupgrade"]},
