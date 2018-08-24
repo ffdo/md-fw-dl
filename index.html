@@ -49,7 +49,7 @@
         
         <leaflet id="dommap" lf-center="dortmund" geojson="geojson" geojson-nested="true" height="420px" width="100%"></leaflet>
 
-        <md-select ng-model="selectedMode" ng-show="config.modes">
+        <md-select ng-model="selectedMode" ng-change="selectedRouter = null;" ng-show="config.modes">
             <md-option ng-repeat="(key, value) in config.modes" value="{{key}}">{{value}}</md-option>
         </md-select>
 
@@ -62,7 +62,9 @@
         </md-select>
 
         <md-select placeholder="Bitte wähle einen Router" ng-model="selectedRouter" ng-show="config.routers">
-            <md-option ng-repeat="(key, value) in config.routers" ng-if="selectedManufacturer == null || value.manufacturer == parse(selectedManufacturer).name" value="{{value | json}}">{{selectedManufacturer == null ? value.manufacturer+' '+value.name : value.name}}</md-option>
+            <md-option ng-repeat="(key, value) in config.routers" ng-if="(selectedManufacturer == null || value.manufacturer == parse(selectedManufacturer).name) && (selectedMode == null || value.modes == null || value.modes.includes(selectedMode))" value="{{value | json}}">    
+               {{selectedManufacturer == null ? value.manufacturer+' '+value.name : value.name}}
+           </md-option>
         </md-select>
 
         <md-button class="md-raised md-primary" ng-href="{{ buildFirmwareUrl() }}" ng-disabled="!(selectedRouter)" target="_self">Download Firmware</md-button>
