@@ -1,6 +1,6 @@
 var config = {
 
-version: "2.0.3",
+version: "2.0.4",
 
 modes: {
   "factory": "Erstinstallation (Neu gekaufter Router)",
@@ -9,26 +9,26 @@ modes: {
 
 sites:{
 
-  "domaene01" : {id: "domaene01",short:"d01",name:"Dev und Test Domäne", version:"2.0.3", version_base:"2017.1.6", on_map: false },
-  "domaene02" : {id: "domaene02",short:"d02",name:"Aussenbezirke und Offloader", version:"2.0.3", version_base:"2017.1.6", on_map: false},
+  "domaene01" : {id: "domaene01",short:"d01",name:"Dev und Test Domäne", version:"2.0.4", version_base:"2017.1.8", on_map: false },
+  "domaene02" : {id: "domaene02",short:"d02",name:"Aussenbezirke und Offloader", version:"2.0.4", version_base:"2017.1.8", on_map: false},
   
-  "domaene03" : {id: "domaene03",short:"d03",name:"Dortmund Mitte-Nord", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene04" : {id: "domaene04",short:"d04",name:"Dortmund Mitte-Süd", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene05" : {id: "domaene05",short:"d05",name:"Dortmund Nord", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene06" : {id: "domaene06",short:"d06",name:"Dortmund Süd", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene07" : {id: "domaene07",short:"d07",name:"Werne", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene08" : {id: "domaene08",short:"d08",name:"Lünen", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene09" : {id: "domaene09",short:"d09",name:"Bergkamen, Kamen, Bönen", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-  "domaene10" : {id: "domaene10",short:"d10",name:"Unna",  version:"2.0.3", version_base:"2017.1.6", on_map: true},
-  "domaene11" : {id: "domaene11",short:"d11",name:"Schwerte, Holzwickede, Fröndenberg", version:"2.0.3", version_base:"2017.1.6", on_map: true },
+  "domaene03" : {id: "domaene03",short:"d03",name:"Dortmund Mitte-Nord", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene04" : {id: "domaene04",short:"d04",name:"Dortmund Mitte-Süd", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene05" : {id: "domaene05",short:"d05",name:"Dortmund Nord", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene06" : {id: "domaene06",short:"d06",name:"Dortmund Süd", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene07" : {id: "domaene07",short:"d07",name:"Werne", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene08" : {id: "domaene08",short:"d08",name:"Lünen", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene09" : {id: "domaene09",short:"d09",name:"Bergkamen, Kamen, Bönen", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+  "domaene10" : {id: "domaene10",short:"d10",name:"Unna",  version:"2.0.4", version_base:"2017.1.8", on_map: true},
+  "domaene11" : {id: "domaene11",short:"d11",name:"Schwerte, Holzwickede, Fröndenberg", version:"2.0.4", version_base:"2017.1.8", on_map: true },
   
-//  "domaene112" : {id: "domaene112",short:"d112",name:"Holzwickede", version:"2.0.3", version_base:"2017.1.6", on_map: false },
-//  "domaene113" : {id: "domaene113",short:"d113",name:"Kamen", version:"2.0.3", version_base:"2017.1.6", on_map: false },
-//  "domaene114" : {id: "domaene114",short:"d114",name:"Schwerte", version:"2.0.3", version_base:"2017.1.6", on_map: false },
-//  "domaene115" : {id: "domaene115",short:"d115",name:"Frönenberg", version:"2.0.3", version_base:"2017.1.6", on_map: true },
-//  "domaene116" : {id: "domaene116",short:"d116",name:"Hamm", version:"2.0.3", version_base:"2017.1.6", on_map: false },
-//  "domaene117" : {id: "domaene117",short:"d117",name:"Bergkamen", version:"2.0.3", version_base:"2017.1.6", on_map: false },
-//  "domaene118" : {id: "domaene118",short:"d118",name:"Bönen", version:"2.0.3", version_base:"2017.1.6", on_map: false },
+//  "domaene112" : {id: "domaene112",short:"d112",name:"Holzwickede", version:"2.0.4", version_base:"2017.1.8", on_map: false },
+//  "domaene113" : {id: "domaene113",short:"d113",name:"Kamen", version:"2.0.4", version_base:"2017.1.8", on_map: false },
+//  "domaene114" : {id: "domaene114",short:"d114",name:"Schwerte", version:"2.0.4", version_base:"2017.1.8", on_map: false },
+//  "domaene115" : {id: "domaene115",short:"d115",name:"Frönenberg", version:"2.0.4", version_base:"2017.1.8", on_map: true },
+//  "domaene116" : {id: "domaene116",short:"d116",name:"Hamm", version:"2.0.4", version_base:"2017.1.8", on_map: false },
+//  "domaene117" : {id: "domaene117",short:"d117",name:"Bergkamen", version:"2.0.4", version_base:"2017.1.8", on_map: false },
+//  "domaene118" : {id: "domaene118",short:"d118",name:"Bönen", version:"2.0.4", version_base:"2017.1.8", on_map: false },
   
 },
 
